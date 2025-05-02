@@ -33,7 +33,7 @@ export default function Home() {
     "@type": "WebApplication",
     "name": "AI Tools Navigation",
     "description": "One-stop AI tools collection platform, aiming to collect 1000+ high-quality AI tools to help you find the most suitable AI assistant!",
-    "url": "https://ai-navigation.online",
+    "url": "https://www.ai-navigation.online",
     "applicationCategory": "ReferenceApplication",
     "operatingSystem": "Any",
     "offers": {
@@ -61,17 +61,17 @@ export default function Home() {
         
         {/* Open Graph / Facebook */}
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://ai-navigation.online" />
+        <meta property="og:url" content="https://www.ai-navigation.online" />
         <meta property="og:title" content="AI Tools Navigation - The Most Comprehensive AI Tools Collection" />
         <meta property="og:description" content="One-stop AI tools navigation platform, collecting the most comprehensive AI tools to help you find the most suitable AI assistant!" />
-        <meta property="og:image" content="https://ai-navigation.online/og-image.jpg" />
+        <meta property="og:image" content="https://www.ai-navigation.online/og-image.jpg" />
         
         {/* Twitter */}
         <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content="https://ai-navigation.online" />
+        <meta property="twitter:url" content="https://www.ai-navigation.online" />
         <meta property="twitter:title" content="AI Tools Navigation - The Most Comprehensive AI Tools Collection" />
         <meta property="twitter:description" content="One-stop AI tools navigation platform, collecting the most comprehensive AI tools to help you find the most suitable AI assistant!" />
-        <meta property="twitter:image" content="https://ai-navigation.online/og-image.jpg" />
+        <meta property="twitter:image" content="https://www.ai-navigation.online/og-image.jpg" />
         
         {/* Other meta tags */}
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
@@ -85,7 +85,7 @@ export default function Home() {
         <link rel="preload" href="/fonts/your-font.woff2" as="font" type="font/woff2" crossOrigin="anonymous" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link rel="canonical" href="https://ai-navigation.online"/>
+        <link rel="canonical" href="https://www.ai-navigation.online"/>
       </Head>
 
       {/* Structured data */}
