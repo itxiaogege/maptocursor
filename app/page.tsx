@@ -5,7 +5,7 @@ import { motion } from 'framer-motion'
 import Head from 'next/head'
 import Script from 'next/script'
 
-export const categories = [
+const categories = [
   {
     name: 'AI Chat Assistants',
     sites: [
