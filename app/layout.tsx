@@ -2,8 +2,8 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'AI 导航站',
-  description: '发现最好的 AI 工具和资源',
+  title: 'AI Navigation',
+  description: 'Discover the best AI tools and resources',
 }
 
 export default function RootLayout({
@@ -12,11 +12,11 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="zh-CN" suppressHydrationWarning>
+    <html lang="en" suppressHydrationWarning>
       <head>
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="description" content="发现最好的 AI 工具和资源" />
+        <meta name="description" content="Discover the best AI tools and resources" />
       </head>
       <body suppressHydrationWarning>
         {children}
