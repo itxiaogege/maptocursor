@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import './globals.css'
+import { GoogleTagManager } from '@next/third-parties/google'
 
 export const metadata: Metadata = {
   title: 'AI Tools Navigation AI Tools for Your Needs',
@@ -14,6 +15,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
+       <GoogleTagManager gtmId="G-R6T18MG79K" />
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="description" content="AI Tools Navigation collects, including ChatGPT, Claude, Gemini and other AI art tools, as well as various AI office, programming, and video tools" />
@@ -21,6 +23,7 @@ export default function RootLayout({
       <body suppressHydrationWarning>
         {children}
       </body>
+
     </html>
   )
 } 
