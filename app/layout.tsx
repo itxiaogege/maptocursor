@@ -2,8 +2,8 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'AI Tools Navigation - The Most Comprehensive AI Tools Collection | AI Navigation',
-  description: 'AI Tools Navigation collects the most comprehensive AI tools, including ChatGPT, Claude, Gemini and other AI chat assistants, Midjourney, DALL-E and other AI art tools, as well as various AI office, programming, and video tools. One-stop solution for your AI needs!',
+  title: 'AI Tools Navigation AI Tools for Your Needs',
+  description: 'AI Tools Navigation collects, including ChatGPT, Claude, Gemini and other AI art tools, as well as various AI office, programming, and video tools',
 }
 
 export default function RootLayout({
@@ -16,7 +16,7 @@ export default function RootLayout({
       <head>
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="description" content="AI Tools Navigation collects the most comprehensive AI tools, including ChatGPT, Claude, Gemini and other AI chat assistants, Midjourney, DALL-E and other AI art tools, as well as various AI office, programming, and video tools. One-stop solution for your AI needs!" />
+        <meta name="description" content="AI Tools Navigation collects, including ChatGPT, Claude, Gemini and other AI art tools, as well as various AI office, programming, and video tools" />
       </head>
       <body suppressHydrationWarning>
         {children}
