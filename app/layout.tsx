@@ -3,7 +3,7 @@ import './globals.css'
 
 export const metadata: Metadata = {
   title: 'AI Navigation',
-  description: 'Discover the best AI tools and resources',
+  description: 'AI Tools Navigation collects the most comprehensive AI tools, including ChatGPT, Claude, Gemini and other AI chat assistants, Midjourney, DALL-E and other AI art tools, as well as various AI office, programming, and video tools. One-stop solution for your AI needs!',
 }
 
 export default function RootLayout({

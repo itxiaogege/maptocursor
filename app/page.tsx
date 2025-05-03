@@ -31,7 +31,7 @@ export default function Home() {
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "WebApplication",
-    "name": "AI Tools Navigation",
+    "name": "AI Navigation | Ultimate AI Tools Directory | Daily Updates | Future Tech Hub | Enterprise AI Solutions | Top AI Apps",
     "description": "One-stop AI tools collection platform, aiming to collect 1000+ high-quality AI tools to help you find the most suitable AI assistant!",
     "url": "https://www.ai-navigation.online",
     "applicationCategory": "ReferenceApplication",
@@ -85,7 +85,7 @@ export default function Home() {
         <link rel="preload" href="/fonts/your-font.woff2" as="font" type="font/woff2" crossOrigin="anonymous" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link rel="canonical" href="https://www.ai-navigation.online"/>
+        <link rel="canonical" href="https://www.ai-navigation.online/" />
       </Head>
 
       {/* Structured data */}
